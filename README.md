@@ -7,7 +7,7 @@ This project showcases my skills, projects, and experience in **Data Analysis** 
 
 ## 🚀 Live Demo
 
-🔗 https://portflio-phi-ten.vercel.app/
+🔗 abdallahportfolio-phi-ten.vercel.app
 
 ---
 
