@@ -254,6 +254,7 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
   </div>
 </div>
 
+
 <!-- PROJECTS -->
 <section id="projects">
   <div class="wrap">
@@ -269,30 +270,44 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
         <div class="p-body">
           <h3>Customer360 Analytics &amp; Automation Platform</h3>
           <p class="tag">Databricks · PySpark · SQL · Power BI · n8n</p>
-          <div class="blk"><h4>The business problem</h4>
-            <p>Customers, orders, products, support tickets and clickstream lived in five separate sources, each with its own quality problems. Nobody could trust a single number.</p></div>
-          <div class="blk"><h4>What I built</h4>
+
+          <div class="blk">
+            <h4>The business problem</h4>
+            <p>Customers, orders, products, support tickets and clickstream lived in five separate sources, each with its own quality problems. Nobody could trust a single number.</p>
+          </div>
+
+          <div class="blk">
+            <h4>What I built</h4>
             <ul>
               <li>One Customer 360 model in Databricks (Bronze, Silver, Gold): 3 fact tables and 4 dimensions.</li>
               <li>Cleaning and validation rules on 300K+ order records.</li>
               <li>Automated data quality checks on 7 Gold tables (884K+ records) in n8n, with issue classification and audit logging in Google Sheets.</li>
               <li>Power BI dashboards for customer, order and support KPIs.</li>
               <li>Configured an Incremental Refresh policy in Power BI, and used Performance Analyzer to inspect DAX query and visual rendering performance.</li>
-            </ul></div>
-          <div class="blk"><h4>What I found</h4>
-            <p>1,734 duplicate customer IDs, 1,040 missing emails and 11,163 orders flagged for customer-related data issues. I turned the results into 4 recommendations with a 90-day action plan.</p></div>
+            </ul>
+          </div>
+
+          <div class="blk">
+            <h4>What I found</h4>
+            <p>1,734 duplicate customer IDs, 1,040 missing emails and 11,163 orders flagged for customer-related data issues. I turned the results into 4 recommendations with a 90-day action plan.</p>
+          </div>
+
           <a class="link-out" href="https://github.com/abdallaatarekk/customer360-analytics-platform" target="_blank" rel="noopener noreferrer">View code and documentation on GitHub ↗</a>
         </div>
+
         <div class="p-media">
-          <div class="tabs" role="tablist" aria-label="Customer360 screenshots">
+          <div class="tabs" role="tablist" aria-label="Customer360 dashboards and workflow">
             <button class="tab" role="tab" aria-selected="true" data-src="assets/img/c360-executive.jpg" data-alt="Customer360 Executive Overview dashboard in Power BI">Executive</button>
             <button class="tab" role="tab" aria-selected="false" data-src="assets/img/c360-customer.jpg" data-alt="Customer360 customer analytics dashboard in Power BI">Customer</button>
             <button class="tab" role="tab" aria-selected="false" data-src="assets/img/c360-support.jpg" data-alt="Customer360 support analytics dashboard in Power BI">Support</button>
             <button class="tab" role="tab" aria-selected="false" data-src="assets/img/c360-star-schema.jpg" data-alt="Customer360 star schema data model">Data model</button>
+            <button class="tab" role="tab" aria-selected="false" data-src="assets/img/n8n-workflow.jpg" data-alt="n8n automated data quality workflow connected to Google Sheets">n8n Workflow</button>
           </div>
-          <div class="shot"><img src="assets/img/c360-executive.jpg" alt="Customer360 Executive Overview dashboard in Power BI" loading="lazy"></div>
-          <p class="note">Click the image to enlarge.</p>
-          <!-- Add an n8n workflow screenshot here (remove credentials first). -->
+
+          <div class="shot">
+            <img src="assets/img/c360-executive.jpg" alt="Customer360 Executive Overview dashboard in Power BI" loading="lazy">
+          </div>
+          <p class="note">Select a tab to view each dashboard, the data model, or the n8n workflow. Click the image to enlarge.</p>
         </div>
       </div>
     </article>
@@ -304,13 +319,23 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
           <div class="p-body">
             <h3>Uber Business Intelligence Report</h3>
             <p class="tag">SQL · Business analysis · KPI reporting</p>
-            <div class="blk"><h4>The business problem</h4>
-              <p>Where does a ride-hailing business lose revenue, and which riders and zones matter most?</p></div>
-            <div class="blk"><h4>What I did</h4>
-              <p>Analyzed 20,000 trip records across 4 cities with SQL: revenue, cancellations, surge pricing, rider behavior and driver performance.</p></div>
-            <div class="blk"><h4>What I found</h4>
-              <p>4 business recommendations covering rider retention, surge-zone coverage, wait times and driver allocation. The $106K leakage and $40K–$60K opportunity are estimates based on project assumptions.</p></div>
+
+            <div class="blk">
+              <h4>The business problem</h4>
+              <p>Where does a ride-hailing business lose revenue, and which riders and zones matter most?</p>
+            </div>
+
+            <div class="blk">
+              <h4>What I did</h4>
+              <p>Analyzed 20,000 trip records across 4 cities with SQL: revenue, cancellations, surge pricing, rider behavior and driver performance.</p>
+            </div>
+
+            <div class="blk">
+              <h4>What I found</h4>
+              <p>4 business recommendations covering rider retention, surge-zone coverage, wait times and driver allocation. The $106K leakage and $40K–$60K opportunity are estimates based on project assumptions.</p>
+            </div>
           </div>
+
           <div class="p-media tiles-wrap">
             <div class="tiles">
               <div class="tile"><b>14.8%</b><span>cancellation rate</span></div>
@@ -321,56 +346,47 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
         </div>
       </article>
 
-      <!-- Churn -->
+      <!-- Football -->
       <article class="project">
         <div class="p-grid">
           <div class="p-body">
-            <h3>Telecom Customer Churn Analysis</h3>
-            <p class="tag">SQL · Power BI · Data cleaning</p>
-            <div class="blk"><h4>The business problem</h4>
-              <p>A telecom lost 1,796 of 6,687 customers (27%). Who leaves, and what could keep them?</p></div>
-            <div class="blk"><h4>What I did</h4>
-              <p>Cleaned the data (including inconsistent churn labels), then compared churn across contract type, payment method, geography and usage. I flagged gaps in the churn-reason data.</p></div>
-            <div class="blk"><h4>What I found</h4>
-              <p>Month-to-Month contracts and Direct Debit payers churned more. Recommendations: targeted outreach, flexible plans and personalized offers for high-risk segments.</p></div>
+            <h3>Football Scouting System</h3>
+            <p class="tag">Graduation project (A+) · Python · Excel · Power BI · Machine learning</p>
+
+            <div class="blk">
+              <h4>The business problem</h4>
+              <p>Clubs compare players by reputation. I wanted a consistent, data-based way to scout players across attack, defence and goalkeeping.</p>
+            </div>
+
+            <div class="blk">
+              <h4>What I built</h4>
+              <ul>
+                <li>Aggregated and standardized 4,000+ player records to support a machine learning-based scouting pipeline.</li>
+                <li>20+ performance KPIs and interactive Power BI dashboards for player analysis and comparison: attacking, defensive, goalkeeper and player profile.</li>
+                <li>Extended the analysis to 195+ countries across 10 global indicators for interactive geographic exploration.</li>
+              </ul>
+            </div>
           </div>
+
           <div class="p-media">
-            <div class="shot"><img src="assets/img/churn-dashboard.jpg" alt="Telecom churn dashboard in Power BI showing churned customers, contract type and churn categories" loading="lazy"></div>
-            <!-- Add a link to the churn proposal deck (PDF) here when you upload it. -->
+            <div class="tabs" role="tablist" aria-label="Football dashboards">
+              <button class="tab" role="tab" aria-selected="true" data-src="assets/img/pl-attacking.jpg" data-alt="Premier League attacking dashboard in Power BI">Attacking</button>
+              <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-defensive.jpg" data-alt="Premier League defensive dashboard in Power BI">Defensive</button>
+              <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-goalkeeper.jpg" data-alt="Premier League goalkeeper dashboard in Power BI">Goalkeeper</button>
+              <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-player-info.jpg" data-alt="Premier League player info dashboard in Power BI">Player info</button>
+            </div>
+
+            <div class="shot">
+              <img src="assets/img/pl-attacking.jpg" alt="Premier League attacking dashboard in Power BI" loading="lazy">
+            </div>
+            <p class="note">Click the image to enlarge.</p>
           </div>
         </div>
       </article>
     </div>
 
-    <!-- Football -->
-    <article class="project" style="margin-top:1.6rem">
-      <div class="p-grid">
-        <div class="p-body">
-          <h3>Football Scouting System</h3>
-          <p class="tag">Graduation project (A+) · Python · Excel · Power BI · Machine learning</p>
-          <div class="blk"><h4>The business problem</h4>
-            <p>Clubs compare players by reputation. I wanted a consistent, data-based way to scout players across attack, defence and goalkeeping.</p></div>
-          <div class="blk"><h4>What I built</h4>
-            <ul>
-              <li>Aggregated and standardized 4,000+ player records to support a machine learning-based scouting pipeline.</li>
-              <li>20+ performance KPIs and interactive Power BI dashboards for player analysis and comparison: attacking, defensive, goalkeeper and player profile.</li>
-              <li>Extended the analysis to 195+ countries across 10 global indicators for interactive geographic exploration.</li>
-            </ul></div>
-        </div>
-        <div class="p-media">
-          <div class="tabs" role="tablist" aria-label="Football dashboards">
-            <button class="tab" role="tab" aria-selected="true" data-src="assets/img/pl-attacking.jpg" data-alt="Premier League attacking dashboard in Power BI">Attacking</button>
-            <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-defensive.jpg" data-alt="Premier League defensive dashboard in Power BI">Defensive</button>
-            <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-goalkeeper.jpg" data-alt="Premier League goalkeeper dashboard in Power BI">Goalkeeper</button>
-            <button class="tab" role="tab" aria-selected="false" data-src="assets/img/pl-player-info.jpg" data-alt="Premier League player info dashboard in Power BI">Player info</button>
-          </div>
-          <div class="shot"><img src="assets/img/pl-attacking.jpg" alt="Premier League attacking dashboard in Power BI" loading="lazy"></div>
-          <p class="note">Click the image to enlarge.</p>
-        </div>
-      </div>
-    </article>
-
     <h3 class="more-h">More dashboards</h3>
+
     <div class="two">
       <!-- WWI -->
       <article class="project">
@@ -378,18 +394,28 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
           <div class="p-body">
             <h3>Sales Performance Dashboards</h3>
             <p class="tag">Power BI · DAX · Power Query</p>
-            <div class="blk"><h4>The business question</h4>
-              <p>What drives sales and profit for a wholesale company, and which customers, salespeople and products matter most?</p></div>
-            <div class="blk"><h4>What I built</h4>
-              <p>A 3-page report: Executive Overview, Customer &amp; Salesperson, and Sales &amp; Profit. It covers $19.88M revenue, $9.92M profit and 8.2K orders, with City, Year, Quarter and Month filters.</p></div>
+
+            <div class="blk">
+              <h4>The business question</h4>
+              <p>What drives sales and profit for a wholesale company, and which customers, salespeople and products matter most?</p>
+            </div>
+
+            <div class="blk">
+              <h4>What I built</h4>
+              <p>A 3-page report: Executive Overview, Customer &amp; Salesperson, and Sales &amp; Profit. It covers $19.88M revenue, $9.92M profit and 8.2K orders, with City, Year, Quarter and Month filters.</p>
+            </div>
           </div>
+
           <div class="p-media">
             <div class="tabs" role="tablist" aria-label="Sales dashboards">
               <button class="tab" role="tab" aria-selected="true" data-src="assets/img/wwi-1.jpg" data-alt="Sales Performance executive overview dashboard">Overview</button>
               <button class="tab" role="tab" aria-selected="false" data-src="assets/img/wwi-2.jpg" data-alt="Sales Performance customer and salesperson dashboard">Customers</button>
               <button class="tab" role="tab" aria-selected="false" data-src="assets/img/wwi-3.jpg" data-alt="Sales Performance sales and profit dashboard">Profit</button>
             </div>
-            <div class="shot"><img src="assets/img/wwi-1.jpg" alt="Sales Performance executive overview dashboard" loading="lazy"></div>
+
+            <div class="shot">
+              <img src="assets/img/wwi-1.jpg" alt="Sales Performance executive overview dashboard" loading="lazy">
+            </div>
           </div>
         </div>
       </article>
@@ -432,8 +458,42 @@ dialog button{position:fixed;top:14px;right:18px;background:#fff;border:0;border
         </div>
       </article>
     </div>
+
+    <!-- Churn - Final Project -->
+    <article class="project" style="margin-top:1.6rem">
+      <div class="p-grid">
+        <div class="p-body">
+          <h3>Telecom Customer Churn Analysis</h3>
+          <p class="tag">SQL · Power BI · Data cleaning</p>
+
+          <div class="blk">
+            <h4>The business problem</h4>
+            <p>A telecom lost 1,796 of 6,687 customers (27%). Who leaves, and what could keep them?</p>
+          </div>
+
+          <div class="blk">
+            <h4>What I did</h4>
+            <p>Cleaned the data (including inconsistent churn labels), then compared churn across contract type, payment method, geography and usage. I flagged gaps in the churn-reason data.</p>
+          </div>
+
+          <div class="blk">
+            <h4>What I found</h4>
+            <p>Month-to-Month contracts and Direct Debit payers churned more. Recommendations: targeted outreach, flexible plans and personalized offers for high-risk segments.</p>
+          </div>
+        </div>
+
+        <div class="p-media">
+          <div class="shot">
+            <img src="assets/img/churn-dashboard.jpg" alt="Telecom churn dashboard in Power BI showing churned customers, contract type and churn categories" loading="lazy">
+          </div>
+          <p class="note">Telecom Customer Churn Analysis Dashboard · Power BI</p>
+        </div>
+      </div>
+    </article>
+
   </div>
 </section>
+
 
 <!-- EXPERIENCE -->
 <section id="experience">
