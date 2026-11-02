@@ -1,78 +1,42 @@
-# Abdallah Tarek – Data Analyst Portfolio 🌐
+# Abdallah Tarek | Data Analyst & BI Developer
 
-Welcome to my personal **Data Analyst Portfolio Website**.
-This project showcases my skills, projects, and experience in **Data Analysis** and **Business Intelligence**.
+Welcome to my personal portfolio website, where I showcase my projects, technical skills, and professional journey in **Data Analytics and Business Intelligence**.
 
----
+I'm a Computer Science graduate passionate about transforming raw data into meaningful insights through data analysis, visualization, and business-focused reporting.
 
-## 🚀 Live Demo
+## Live Portfolio
 
-🔗 **[Visit My Portfolio](https://abdallahportfolio-phi-ten.vercel.app/)**
+Explore my projects, dashboards, and professional background:
 
----
+[**Visit My Portfolio**](https://abdallahportfolio-phi-ten.vercel.app/)
 
-## 📂 Portfolio Sections
+## About Me
 
-* **Home** – Quick introduction and overview
-* **About Me** – Background and career goals
-* **Experience** – Practical and professional journey
-* **Skills** – Tools and technologies I use
-* **Projects** – Data analysis projects with insights
-* **Education** – Academic background and certifications
-* **Contact** – Ways to connect with me
+I'm an aspiring Data Analyst and BI Developer with hands-on experience in:
 
----
+- Extracting, cleaning, and analyzing structured datasets.
+- Writing SQL queries to investigate data and answer business questions.
+- Building interactive Power BI dashboards and KPI reports.
+- Developing data models and implementing data quality checks.
+- Turning analytical findings into actionable business recommendations.
 
-## 🛠️ Technologies Used
+I'm continuously developing my technical skills and looking for opportunities to contribute, learn, and grow within a data-driven team.
 
-* **HTML5**
-* **CSS3** (Responsive Design & Animations)
-* **JavaScript** (Interactivity & Effects)
-* **Font Awesome** (Icons)
-* **Google Fonts**
+## Technical Skills
 
----
+| Category | Technologies |
+|---|---|
+| Data Analysis | SQL, Excel, Python |
+| Business Intelligence | Power BI, DAX, Power Query |
+| Data Engineering | Databricks, PySpark |
+| Databases | Microsoft SQL Server |
+| Automation | n8n |
+| Web Development | HTML5, CSS3, JavaScript |
+| Other | Data Cleaning, Data Modeling, Data Validation, KPI Reporting |
 
-## 📊 Featured Projects
+## Featured Projects
 
-Here are some of the projects included in my portfolio:
+The portfolio includes practical projects covering different areas of data analytics and business intelligence:
 
-* **Sales Dashboard (Power BI)**
-
-  * Cleaned and analyzed sales data using Excel & SQL
-  * Built an interactive dashboard to track KPIs
-  * Improved data-driven decision making
-
-* **Data Cleaning Project (Excel)**
-
-  * Processed raw datasets
-  * Removed inconsistencies and duplicates
-  * Prepared clean data for analysis
-
-*(More projects available on the website)*
-
----
-
-## 🎯 هدف الموقع
-
-This portfolio is designed to:
-
-* Showcase my **data analysis skills**
-* Highlight **real-world projects**
-* Make it easy for recruiters to **evaluate my work**
-
----
-
-## 📬 Contact
-
-* 📧 Email: [abdallaht12012005@gmail.com](mailto:abdallaht12012005@gmail.com)
-* 📞 Phone: +20 120 898 6995
-* 🐙 GitHub: https://github.com/boody1911
-* 🌍 Location: Cairo, Egypt
-
----
-
-## ✨ Feedback
-
-Feel free to explore my portfolio and share your feedback.
-I’m open to opportunities, collaborations, and continuous learning.
+### 1. Customer360 Analytics & Automation Platform
+**
